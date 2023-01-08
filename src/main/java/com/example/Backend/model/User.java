@@ -13,7 +13,6 @@ public class User {
     private Long id;
     private String username;
     private String name;
-    private String address;
     private String email;
 
     public Long getId() {
@@ -38,14 +37,6 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 
     public String getEmail() {
