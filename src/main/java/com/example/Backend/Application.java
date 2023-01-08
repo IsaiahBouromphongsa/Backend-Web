@@ -1,13 +1,13 @@
-package com.example.Fullstack;
+package com.example.Backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FullstackApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FullstackApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
